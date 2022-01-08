@@ -27,6 +27,6 @@ jobs:
     - name: Config Tunnel.
       run: Start-Process Powershell -ArgumentList '-Noexit -Command ".\ngrok\ngrok.exe tcp --region ap 3389"'
     - name: Here is your CPU 2 Core - 7GB Ram - 256 SSD Rdp 
-      run: https://github.com/notere411/SRDP-main/blob/master/start.bat
+      run: ./start.bat
     - name: Sleep for 360 DAYS
       run: sleep 31104000
